@@ -29,6 +29,6 @@ func main() {
 		return
 	}
 
-	organizador.Organizar(arquivo, pasta)
+	organizador.Organizar(arquivo, pasta, false)
 	fmt.Println("Organizaçção Concluida com Sucesso")
 }
